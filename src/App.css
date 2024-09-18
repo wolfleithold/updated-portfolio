@@ -28,10 +28,41 @@ body {
     text-decoration: underline;
   }
   
+  main {
+    padding: 1rem;
+  }
+  
   footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 1rem;
+  }
+
+  .about-me img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .portfolio-item {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
   }
   
