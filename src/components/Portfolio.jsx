@@ -7,6 +7,7 @@ import bonAppetit from '../assets/bon-appetit.png';
 import readmeGenerator from '../assets/readme-generator.png';
 import payrollTracker from '../assets/payroll-tracker.png';
 import fishGame from '../assets/fish-game.png';
+import rockPaperScissors from '../assets/rock-paper-scissors.png';
 
 const Portfolio = () => {
   return (
@@ -80,12 +81,12 @@ const Portfolio = () => {
         </div>
         <div className="col-md-4">
           <div className="card mb-4 portfolio-card">
-            <img src={weatherApp} className="card-img-top portfolio-img" alt="Weather App" />
+            <img src={rockPaperScissors} className="card-img-top portfolio-img" alt="Weather App" />
             <div className="card-body portfolio-overlay">
-              <a href="https://wolfleithold.github.io/a-weather-app/" className="btn btn-primary portfolio-btn">
-                Weather Dashboard
+              <a href="https://wolfleithold.github.io/rock-paper-scissors/" className="btn btn-primary portfolio-btn">
+                Rock Paper Scissors
               </a>
-              <a href="https://github.com/wolfleithold/a-weather-app" className="btn btn-secondary portfolio-btn">
+              <a href="https://github.com/wolfleithold/rock-paper-scissors" className="btn btn-secondary portfolio-btn">
                 <img src={githubLogo} alt="GitHub" className="portfolio-icon" />
               </a>
             </div>
