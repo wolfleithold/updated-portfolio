@@ -19,6 +19,7 @@
   .about-me {
     padding-left: 100px;  
     padding-right: 100px;
+    padding-bottom: 50px;
   }
   
   .about-me h2 {
@@ -39,6 +40,7 @@
   
   .about-me p {
     clear: both;            
-    margin-top: 1rem;      
+    margin-top: 1rem; 
+    margin-bottom: 1rem;     
   }
   
