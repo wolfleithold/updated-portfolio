@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <section className="about-me">
       <img src="/path-to-your-avatar.jpg" alt="Developer" />
-      <p>Short bio about the developer.</p>
+      <p></p>
     </section>
   );
 };
