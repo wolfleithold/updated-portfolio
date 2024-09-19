@@ -4,82 +4,24 @@ body {
     padding: 0;
   }
   
-  header {
-    background-color: #333;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-  }
-  
-  nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-  }
-  
-  nav li {
-    margin: 0 1rem;
-    cursor: pointer;
-  }
-  
-  nav li.active {
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  
   main {
     padding: 1rem;
   }
 
-
-  .about-me img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-  }
-  
-  .portfolio-item {
-    margin-bottom: 1rem;
-  }
-  
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .contact-form input, .contact-form textarea {
-    margin-bottom: 1rem;
-  }
-  
-  .contact-form input[type="submit"] {
-    background-color: #333;
-    color: white;
-    border: none;
-    padding: 0.5rem;
-    cursor: pointer;
-  }
-  
   footer {
     display: flex;
     justify-content: center;
     gap: 1rem;
     padding: 1rem;
-    background-color: #ff0000;
+    background-color: #333;
+    color: white;
+    text-align: center;
   }
-  
-  footer a {
+
+  a {
     text-decoration: none;
   }
   
-  footer img.footer-icon {
-    width: 24px;
-    height: 24px;
-    display: inline-block;
+  a:hover {
+    text-decoration: underline;
   }
-  
-  footer img.footer-icon:hover {
-    transform: scale(1.1);
-    transition: transform 0.2s ease-in-out;
-  }
-  
