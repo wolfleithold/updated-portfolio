@@ -1,10 +1,12 @@
 import React from 'react';
 import '../styles/contact.css';
+import photoOfMe from '../assets/photo-of-me.png';
 
 const AboutMe = () => {
   return (
     <section className="about-me">
-      <img src="/path-to-your-avatar.jpg" alt="Developer" />
+        <h2>About Me</h2>
+      <img src={photoOfMe} alt="Developer" />
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
          Lorem ipsum dolor, sit amet consectetur adipisicing elit. 

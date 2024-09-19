@@ -16,3 +16,29 @@
     cursor: pointer;
   }
   
+  .about-me {
+    padding-left: 100px;  
+    padding-right: 100px;
+  }
+  
+  .about-me h2 {
+    margin-bottom: 1rem;  
+  }
+  
+  .about-me img {
+    width: 150px;            
+    height: 150px;           
+    border-radius: 50%;      
+    transform: rotate(90deg); 
+    object-fit: cover;       
+    display: block;          
+    float: left;             
+    margin-right: 1rem;     
+    margin-bottom: 1.5rem;   
+  }
+  
+  .about-me p {
+    clear: both;            
+    margin-top: 1rem;      
+  }
+  
