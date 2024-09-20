@@ -7,18 +7,18 @@ const AboutMe = () => {
     <section className="about-me">
         <h2>About Me</h2>
       <img src={photoOfMe} alt="Developer" />
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-         Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-         Distinctio, obcaecati molestiae dolores hic soluta nobis voluptate dolorem impedit consectetur quos? 
-         Animi quae quod molestiae quasi optio temporibus non a ex. 
-         Ducimus unde repudiandae delectus, maiores, animi quo, vel hic at enim autem mollitia est officia corporis
-          eos repellendus facilis eius molestias quae.
-          Tenetur rerum tempora, iusto dolorem, facere tempore praesentium sint voluptas consequuntur iste corrupti facilis at. 
-          Minima eveniet corrupti iusto illum esse ea? 
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Optio, dignissimos alias tempora voluptate mollitia at incidunt aliquam voluptates fugiat cumque magnam
-           corporis placeat itaque laboriosam quas expedita ipsa fugit architecto.</p>
+      <p>Hello! I'm Wolfgang Leithold, a 25 year old who absolutely loves vintage tech. Things like floppy disks, the Atari 800, CRT televisions, and 
+        basically anything else from that era.
+        I grew up on hand-me-downs, and that included my game consoles, and other tech gadgets. I was always 10+ years behind on everything gaming, and honestly 
+        I enjoyed my Nintendo 64 more than my friends Xbox 360. My interest in coding and software development was always in the back of my mind, but for a long time, I thought 
+        I had missed the window to learn.</p>
+        <p>
+        I went to college and earned a BA in History, but eventually, I realized it wasn’t the path for me. 
+        After bouncing between part-time jobs, I became a full-time low-voltage technician at a friend’s company. 
+        I stayed there for over two years, gaining insights into modern tech, but it never quite felt like the right fit.
+        That’s when I decided to dive into software development through a bootcamp. It taught me everything I needed to know to 
+        break into the industry, and now I’m eager to keep learning. I don’t know exactly what I want to specialize in yet, but I do know that 
+        I want to create applications and maybe even video games that others will enjoy—especially ones that evoke that same retro vibe I grew up loving. </p>
     </section>
   );
 };

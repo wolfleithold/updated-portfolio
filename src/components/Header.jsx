@@ -4,7 +4,7 @@ import '../styles/header.css';
 const Header = ({ activeSection, setActiveSection }) => {
   return (
     <header>
-      <h1>Wolfleithold</h1>
+      <h1>Wolf Leithold</h1>
       <nav>
         <ul>
           <li
