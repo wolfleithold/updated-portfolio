@@ -4,11 +4,13 @@ import '../styles/contact.css';
 const Contact = () => {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
   const [errors, setErrors] = useState({});
+  const [submitSuccess, setSubmitSuccess] = useState(false);
 
   const handleInputChange = (e) => {
     setFormState({ ...formState, [e.target.name]: e.target.value });
   };
 
+  // email regex
   const validateEmail = (email) => {
     const re = /\S+@\S+\.\S+/;
     return re.test(email);
@@ -24,41 +26,74 @@ const Contact = () => {
     }
   };
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const newErrors = {};
+
+    if (!formState.name) {
+      newErrors.name = 'Name is required';
+    }
+
+    if (!formState.email) {
+      newErrors.email = 'Email is required';
+    } else if (!validateEmail(formState.email)) {
+      newErrors.email = 'Invalid email address';
+    }
+
+    if (!formState.message) {
+      newErrors.message = 'Message is required';
+    }
+
+    setErrors(newErrors);
+
+    // If there are no errors, handle successful submission
+    if (Object.keys(newErrors).length === 0) {
+      // Here you would handle the actual form submission logic (sending data to a server)
+      setSubmitSuccess(true); // For now, let's just simulate success
+    }
+  };
+
   return (
     <section className="contact">
       <h2>Contact Me</h2>
-      <form className="contact-form">
-        <input
-          type="text"
-          name="name"
-          placeholder="Name"
-          value={formState.name}
-          onChange={handleInputChange}
-          onBlur={handleBlur}
-        />
-        {errors.name && <span>{errors.name}</span>}
 
-        <input
-          type="email"
-          name="email"
-          placeholder="Email"
-          value={formState.email}
-          onChange={handleInputChange}
-          onBlur={handleBlur}
-        />
-        {errors.email && <span>{errors.email}</span>}
+      {submitSuccess ? (
+        <p>Thank you! Your message has been sent.</p>
+      ) : (
+        <form className="contact-form" onSubmit={handleSubmit}>
+          <input
+            type="text"
+            name="name"
+            placeholder="Name"
+            value={formState.name}
+            onChange={handleInputChange}
+            onBlur={handleBlur}
+          />
+          {errors.name && <span className="error">{errors.name}</span>}
 
-        <textarea
-          name="message"
-          placeholder="Message"
-          value={formState.message}
-          onChange={handleInputChange}
-          onBlur={handleBlur}
-        />
-        {errors.message && <span>{errors.message}</span>}
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            value={formState.email}
+            onChange={handleInputChange}
+            onBlur={handleBlur}
+          />
+          {errors.email && <span className="error">{errors.email}</span>}
 
-        <input type="submit" value="Send" />
-      </form>
+          <textarea
+            name="message"
+            placeholder="Message"
+            value={formState.message}
+            onChange={handleInputChange}
+            onBlur={handleBlur}
+          />
+          {errors.message && <span className="error">{errors.message}</span>}
+
+          <input type="submit" value="Send" />
+        </form>
+      )}
     </section>
   );
 };
