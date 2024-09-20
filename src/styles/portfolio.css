@@ -38,9 +38,9 @@
     height: 24px;
   }
   
-  /* Optional hover effect for image */
+ 
   .portfolio-card:hover .portfolio-img {
-    transform: scale(1.05); /* Slight zoom on hover */
+    transform: scale(1.05); 
   }
 
   
