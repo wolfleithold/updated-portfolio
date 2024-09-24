@@ -4,7 +4,7 @@ import '../styles/portfolio.css'; // Custom styles
 import githubLogo from '../assets/github-logo.svg';
 import weatherApp from '../assets/weather-app.png';
 import bonAppetit from '../assets/bon-appetit.png';
-import readmeGenerator from '../assets/readme-generator.png';
+import readmeGenerator from '../assets/README-generator.png';
 import payrollTracker from '../assets/payroll-tracker.png';
 import fishGame from '../assets/fish-game.png';
 import rockPaperScissors from '../assets/rock-paper-scissors.png';
