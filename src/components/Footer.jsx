@@ -7,13 +7,13 @@ import stackoverflowLogo from '../assets/stackoverflow-logo.svg';
 const Footer = () => {
   return (
     <footer>
-      <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/wolfleithold" target="_blank" rel="noopener noreferrer">
         <img src={githubLogo} alt="GitHub" className="footer-icon" />
       </a>
-      <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+      <a href="http://www.linkedin.com/in/wolfgang-l-484988139" target="_blank" rel="noopener noreferrer">
         <img src={linkedinLogo} alt="LinkedIn" className="footer-icon" />
       </a>
-      <a href="https://stackoverflow.com/users/your-profile" target="_blank" rel="noopener noreferrer">
+      <a href="https://stackoverflow.com/users/27375750/wolfgang" target="_blank" rel="noopener noreferrer">
         <img src={stackoverflowLogo} alt="Stack Overflow" className="footer-icon" />
       </a>
     </footer>
