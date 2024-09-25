@@ -4,12 +4,14 @@
 
 ## Table of Contents
 
-1. [Description](#description)
-2. [Technology](#technologies-used)
-3. [Contributing](#contributing)
-4. [License](#license)
-5. [Questions](#questions)
-6. [Live-Link](#live-link)
+- [Portfolio 2.0](#portfolio-20)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+  - [Technologies Used](#technologies-used)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Questions](#questions)
+  - [Live-link](#live-link)
 
 ## Description
 
@@ -43,4 +45,4 @@ You can also find me on GitHub: [wolfleithold](https://github.com/wolfleithold).
 
 ## Live-link
 
-Click [here](https://updated-portfolio-yzct.onrender.com) to see it in your browser.
+Click [here](https://dazzling-pothos-03aa80.netlify.app) to see it in your browser.
